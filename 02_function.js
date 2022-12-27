@@ -9,6 +9,8 @@ show();//function call or function invocation
 function showDetails(){
 
 }
+
+
 showDetails("Dipa jangale")
 function swapValues(value1,value2){
     console.log("before swaping",value1,value2);
