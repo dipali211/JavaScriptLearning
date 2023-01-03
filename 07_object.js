@@ -1,19 +1,3 @@
-const dipali = 80;
-dipali = 100;
-console.log(dipali);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // const datta = {
 //     "height":6,
@@ -106,15 +90,36 @@ console.log(dipali);
 // console.log(`Accessing an array`);
 // console.log(student.familyMemberNames);
 
-// console.log(`Object entries`);
-// const billgates = {
-//     height: 6,
-//     weight: 70,
-//     age: 23,
-//     name: "Billgates"
-// }
+console.log(`Object entries`);
+const billgates = {
+    height: 6,
+    weight: 70,
+    age: 23,
+    name: "Billgates",
+    company: "Microsoft",
+    valuation: "130B $"
+
+}
 // console.log(Object.entries(billgates));
 // console.log(Object.keys(billgates));
 // console.log(Object.values(billgates));
+
+for (const key in billgates) {
+  if (Object.hasOwnProperty.call(billgates, key)) {
+    const element = billgates[key];
+    console.log(element);
+    
+  }
+}
+
+console.log(`========== in operator ================`);
+ let isAvailable = "height" in billgates;
+ 
+ if (isAvailable) {
+    delete billgates.height;
+    console.log(`"height" property is deleted successfully`);
+ } else{
+    console.log(`"height" property not deleted as it is available inside object`);
+ }
 
 
