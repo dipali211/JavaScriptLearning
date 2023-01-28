@@ -23,4 +23,3 @@ var result = hobby1 + hobby2+ hobby3;
 var result = hobby1.concat(hobby2,hobby3);
 console.log("Concatenation using concat(): ", result);
 
-
