@@ -20,3 +20,12 @@ do {
   console.log(index);
    index = index-7; 
 } while (index>=7);
+
+
+// var num=100;
+// if (index%5==) {
+//    for (let index = 0; index <=num; index++) {
+//       console.log(index);
+//    }
+   
+// }
